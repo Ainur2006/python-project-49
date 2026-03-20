@@ -1,9 +1,13 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Ainur2006/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Ainur2006/python-project-49/actions)
 
-[Ascinema brain-even](https://asciinema.org/a/CZ0TDZeXimhfJqSA)
+[Asciinema brain-even](https://asciinema.org/a/CZ0TDZeXimhfJqSA)
 
->Тестовый текст
+[Asciinema brain-calc №1](https://asciinema.org/a/Opwn26LyraKddN2p)
+
+[Asciinema brain-calc №2](https://asciinema.org/a/eahdVsc8wvjqCtL9)
+
+<!-- >Тестовый текст
 
 ```python
 if name == '':
@@ -19,4 +23,4 @@ if name == '':
 
 >**жирный текст в цитате**
 
-[жирный **текст** в ссылке](youtube.com)
+[жирный **текст** в ссылке](youtube.com) -->
