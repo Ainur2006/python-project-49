@@ -7,6 +7,9 @@
 
 [Asciinema brain-calc №2](https://asciinema.org/a/eahdVsc8wvjqCtL9)
 
+[Asciinema brain-gcd](https://asciinema.org/a/nsbABxKD0RudYVcZ)
+
+
 <!-- >Тестовый текст
 
 ```python
