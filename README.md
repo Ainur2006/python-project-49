@@ -9,6 +9,8 @@
 
 [Asciinema brain-gcd](https://asciinema.org/a/nsbABxKD0RudYVcZ)
 
+[Asciinema brain-progression](https://asciinema.org/a/5qQxcpS4HDx28riO)
+
 
 <!-- >Тестовый текст
 

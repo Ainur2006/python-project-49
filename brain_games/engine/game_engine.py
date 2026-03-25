@@ -1,11 +1,11 @@
 import prompt
+# from prompt_toolkit import prompt
 
-
-def run_game(initian_line: str, generate_round):
+def run_game(initial_line: str, generate_round):
     print("Welcome to the Brain Games!")
     name = prompt.string("May I have your name? ")
     print(f"Hello, {name}!")
-    print(initian_line)
+    print(initial_line)
     score_counter = 0
     while score_counter < 3:
         question, correct_answer = generate_round()
