@@ -14,10 +14,11 @@ def run_game(initial_line: str, generate_round):
         if user_answer == correct_answer:
             print("Correct!")
             score_counter += 1
+            if score_counter == 3:
+                print(f"Congratulations, {name}!")
         else:
             print(
                 f"{user_answer} is wrong answer ;(. Correct answer was {correct_answer}"
             )
             print(f"Let's try again, {name}!")
-            score_counter = 0
-    print(f"Congratulations, {name}!")
+            break
