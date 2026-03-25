@@ -8,7 +8,7 @@ def search_gcd(a: int, b: int) -> str:
     return a
 
 
-initian_line = "Find the greatest common divisor of given numbers."
+initial_line = "Find the greatest common divisor of given numbers."
 
 
 def generate_round():
@@ -20,7 +20,7 @@ def generate_round():
 
 
 def main():
-    run_game(initian_line, generate_round)
+    run_game(initial_line, generate_round)
 
 
 if __name__ == "__main__":

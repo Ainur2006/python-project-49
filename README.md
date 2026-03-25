@@ -11,6 +11,7 @@
 
 [Asciinema brain-progression](https://asciinema.org/a/5qQxcpS4HDx28riO)
 
+[ASciinema brain-prime](https://asciinema.org/a/e6voDxJfazqyzJiB)
 
 <!-- >Тестовый текст
 

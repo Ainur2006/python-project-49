@@ -13,7 +13,7 @@ def is_even(number: int):
     return "no"
 
 
-initian_line = 'Answer "yes" if the number is even, otherwise answer "no".'
+initial_line = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
 def generate_round():
@@ -23,7 +23,7 @@ def generate_round():
 
 
 def main():
-    run_game(initian_line, generate_round)
+    run_game(initial_line, generate_round)
 
 
 if __name__ == "__main__":

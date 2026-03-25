@@ -19,7 +19,7 @@ def calculate(a: int, b: int, operator: str) -> int:
             return a * b
 
 
-initian_line = "What is the result of the expression?"
+initial_line = "What is the result of the expression?"
 
 
 def generate_round():
@@ -32,7 +32,7 @@ def generate_round():
 
 
 def main():
-    run_game(initian_line, generate_round)
+    run_game(initial_line, generate_round)
 
 
 if __name__ == "__main__":
