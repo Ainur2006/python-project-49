@@ -1,0 +1,25 @@
+from random import randint
+
+from brain_games.engine.game_engine import run_game
+
+
+def random_number() -> int:
+    return randint(1, 100)
+
+
+def is_even(number: int):
+    if number % 2 == 0:
+        return "yes"
+    return "no"
+
+
+initial_line = 'Answer "yes" if the number is even, otherwise answer "no".'
+
+
+def generate_round():
+    question = random_number()
+    correct_answer = is_even(question)
+    return question, correct_answer
+
+def start_even_game():
+    return run_game(initial_line, generate_round)

@@ -1,5 +1,5 @@
 import prompt
-# from prompt_toolkit import prompt
+
 
 def run_game(initial_line: str, generate_round):
     print("Welcome to the Brain Games!")
@@ -18,7 +18,8 @@ def run_game(initial_line: str, generate_round):
                 print(f"Congratulations, {name}!")
         else:
             print(
-                f"{user_answer} is wrong answer ;(. Correct answer was {correct_answer}"
+                f"'{user_answer}' is wrong answer ;(. "
+                f"Correct answer was '{correct_answer}'"
             )
             print(f"Let's try again, {name}!")
             break

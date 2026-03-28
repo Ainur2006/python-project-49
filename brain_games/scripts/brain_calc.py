@@ -1,38 +1,8 @@
-from random import randint
-
-from brain_games.engine.game_engine import run_game
-from brain_games.scripts.brain_even import random_number
-
-
-def random_operator():
-    symbols = ["+", "-", "*"]
-    return symbols[randint(0, 2)]
-
-
-def calculate(a: int, b: int, operator: str) -> int:
-    match operator:
-        case "+":
-            return a + b
-        case "-":
-            return a - b
-        case "*":
-            return a * b
-
-
-initial_line = "What is the result of the expression?"
-
-
-def generate_round():
-    a = random_number()
-    b = random_number()
-    operator = random_operator()
-    question = f"{a} {operator} {b}"
-    correct_answer = str(calculate(a, b, operator))
-    return question, correct_answer
+from games.calc import start_calc_game
 
 
 def main():
-    run_game(initial_line, generate_round)
+    start_calc_game()
 
 
 if __name__ == "__main__":
