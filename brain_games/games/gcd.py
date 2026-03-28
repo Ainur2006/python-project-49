@@ -1,5 +1,5 @@
 from brain_games.engine.game_engine import run_game
-from games.even import random_number
+from brain_games.games.even import random_number
 
 
 def search_gcd(a: int, b: int) -> str:

@@ -1,7 +1,7 @@
 from random import randint
 
-from games.even import random_number
 from brain_games.engine.game_engine import run_game
+from brain_games.games.even import random_number
 
 
 def random_operator():
@@ -29,6 +29,7 @@ def generate_round():
     question = f"{a} {operator} {b}"
     correct_answer = str(calculate(a, b, operator))
     return question, correct_answer
+
 
 def start_calc_game():
     return run_game(initial_line, generate_round)

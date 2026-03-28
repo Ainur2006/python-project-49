@@ -21,5 +21,6 @@ def generate_round():
     correct_answer = is_even(question)
     return question, correct_answer
 
+
 def start_even_game():
     return run_game(initial_line, generate_round)
