@@ -1,5 +1,5 @@
 ### Hexlet tests and linter status:
-[![Actions Status](https://github.com/Ainur2006/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Ainur2006/python-project-49/actions)
+[![Actions Status](https://github.com/Ainur2006/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Ainur2006/python-project-49/actions) [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Ainur2006_python-project-49&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Ainur2006_python-project-49)
 
 ### Описание проекта:
 Данный проект, именованный как "Игры разума", представляет из себя 5 игр для умственного развития человека. 
